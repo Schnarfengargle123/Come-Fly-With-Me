@@ -1,0 +1,112 @@
+/* Global Styles */
+
+body, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* index.html */
+
+.navigation-bar {
+    width: 100vw;
+    height: 8vh;
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-bar__brand {
+    margin-left: 5rem;
+}
+
+.navigation-bar__navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 5rem;
+    background-color: #fff;
+    width: 24rem;
+}
+
+.box {
+    width: 20rem;
+    height: 20rem;
+    background-color: lime;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+    padding: 5rem;
+    border: solid 1rem black;
+    border-radius: 1rem;
+}
+
+/* Global Styles */
+
+/* body, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+} */
+
+/* index.html */
+
+/* .navigation-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    height: 8vh;
+    background-color: orange;
+}
+
+.brand {
+    color: crimson;
+    margin-left: 2rem;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    margin-right: 2rem;
+}
+
+.nav-link {
+
+} */
+
+/* ____________ */
+
+
+/* countries.html */
+
+
+
+
+
+
