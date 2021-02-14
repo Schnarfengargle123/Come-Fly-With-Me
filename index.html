@@ -4,56 +4,114 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/b755101075.js" crossorigin="anonymous"></script>
     <title>Document</title>
   </head>
   <body>
     <div class="navigation-bar">
-      <h2 class="navigation-bar__brand">Come Fly With Me</h2>
+      <h2 class="navigation-bar__brand"><a href="#">Come Fly With Me</a></h2>
       <ul class="navigation-bar__navigation">
-        <li class="nav-link"><a href="#">Home</a></li>
-        <li class="nav-link"><a href="#">Countries</a></li>
-        <li class="nav-link"><a href="#">Languages</a></li>
-        <li class="nav-link"><a href="#">Contact</a></li>
+        <li class="navigation-bar__navigation__nav"><a href="#">About</a></li>
+        <li class="navigation-bar__navigation__nav"><a href="#">Countries</a></li>
+        <li class="navigation-bar__navigation__nav"><a href="#">Languages</a></li>
+        <li class="navigation-bar__navigation__nav"><a href="#">Blog</a></li>
       </ul>
     </div>
 
-    <div class="box">
-      <h1>I AM BOX</h1>
+    <div class="main">
+        <div class="main__card">
+            <h3 class="main__card__brand"><a href="#">North America</a></h3>
+            <p class="main__card__country"><a href="#">Canada</a></p>
+            <p class="main__card__country"><a href="#">United States</a></p>
+        </div>
+        <div class="main__card">
+            <h3 class="main__card__brand"><a href="#">South America</a></h3>
+            <p class="main__card__country"><a href="#">Argentina</a></p>
+            <p class="main__card__country"><a href="#">Brazil</a></p>
+            <p class="main__card__country"><a href="#">Colombia</a></p>
+            <p class="main__card__country"><a href="#">Mexico</a></p>
+            <p class="main__card__country"><a href="#">Venezuela</a></p>
+        </div>
+        <div class="main__card">
+            <h3 class="main__card__brand"><a href="#">Europe</a></h3>
+            <p class="main__card__country"><a href="#">France</a></p>
+            <p class="main__card__country"><a href="#">Germany</a></p>
+            <p class="main__card__country"><a href="#">Greece</a></p>
+            <p class="main__card__country"><a href="#">Italy</a></p>
+            <p class="main__card__country"><a href="#">Poland</a></p>
+            <p class="main__card__country"><a href="#">Portugal</a></p>
+            <p class="main__card__country"><a href="#">Spain</a></p>
+            <p class="main__card__country"><a href="#">Turkey</a></p>
+            <p class="main__card__country"><a href="#">United Kingdom</a></p>
+        </div>
+        <div class="main__card">
+            <h3 class="main__card__brand"><a href="#">Africa</a></h3>
+            <p class="main__card__country"><a href="#">Algeria</a></p>
+            <p class="main__card__country"><a href="#">Egypt</a></p>
+            <p class="main__card__country"><a href="#">Kenya</a></p>
+            <p class="main__card__country"><a href="#">Libya</a></p>
+            <p class="main__card__country"><a href="#">Morocco</a></p>
+            <p class="main__card__country"><a href="#">Nigeria</a></p>
+            <p class="main__card__country"><a href="#">South Africa</a></p>
+            <p class="main__card__country"><a href="#">Swaziland</a></p>
+            <p class="main__card__country"><a href="#">Uganda</a></p>
+            <p class="main__card__country"><a href="#">Zambia</a></p>
+        </div>
+        <div class="main__card">
+            <h3 class="main__card__brand"><a href="#">Asia</a></h3>
+            <p class="main__card__country"><a href="#">China</a></p>
+            <p class="main__card__country"><a href="#">India</a></p>
+            <p class="main__card__country"><a href="#">Japan</a></p>
+            <p class="main__card__country"><a href="#">Mongolia</a></p>
+            <p class="main__card__country"><a href="#">Pakistan</a></p>
+            <p class="main__card__country"><a href="#">Russia</a></p>
+            <p class="main__card__country"><a href="#">South Korea</a></p>
+            <p class="main__card__country"><a href="#">Taiwan</a></p>
+        </div>
+        <div class="main__card">
+            <h3 class="main__card__brand"><a href="#">Oceania</a></h3>
+            <p class="main__card__country"><a href="#">Australia</a></p>
+            <p class="main__card__country"><a href="#">New Zealand</a></p>
+            <p class="main__card__country"><a href="#">Papua New Guinea</a></p>
+        </div>
     </div>
+
+    <div class="footer">
+        <div class="footer__column">
+            <h2 class="footer__column__navigation__brand"><a href="#">Come Fly With Me</a></h2>
+            <ul class="footer__column__navigation">
+              <li class="footer__column__navigation__nav"><a href="#">About</a></li>
+              <li class="footer__column__navigation__nav"><a href="#">Countries</a></li>
+              <li class="footer__column__navigation__nav"><a href="#">Languages</a></li>
+              <li class="footer__column__navigation__nav"><a href="#">Blog</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__column">
+            <h2 class="footer__column__info__title"><a href="#">Info</a></h2>
+            <ul class="footer__column__info">
+              <p>Thank you for visiting!</p>
+              <p>Learn about the world</p>
+              <p>@ Come Fly With Me!</p>
+              <p>Sharing is Caring</p>
+            </ul>
+          </div>
+
+          <div class="footer__column">
+            <h2 class="footer__column__social__title"><a href="#">Social</a></h2>
+            <ul class="footer__column__social">
+              <li class="footer__column__navigation__nav"><a href="#"><i class="fab fa-facebook"></i></a></li>
+              <li class="footer__column__navigation__nav"><a href="#"><i class="fab fa-instagram"></i></a></li>
+              <li class="footer__column__navigation__nav"><a href="#"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+          </div>
+    </div>
+
   </body>
 </html>
-
-<!-- <div class="navigation-bar">
-        <h1 class="brand">Come Fly With Me</h1>
-        <ul class="navigation">
-            <li class="nav-link"><a href="#">Home</a></li>
-            <li class="nav-link"><a href="continents.html">Countries</a></li>
-            <li class class="nav-link"><a href="#">Languages</a></li>
-            <li class="nav-link"><a href="#">Contact</a></li>
-        </ul>
-    </div>
-
-    <div class="header">
-        <div class="blurb">
-            <h2>Come Fly With Me!</h2>
-            <p>Let's fly, let's fly, away...</p>
-        </div>
-    </div>
-
-    <div class="main">
-        <div class="continents">
-            <div class="main-continents__north-america">North America</div>
-            <div class="main-continents__south-america">South America</div>
-            <div class="main-continents__europe">Europe</div>
-            <div class="main-continents__africa">Africa</div>
-            <div class="main-continents__asia">Asia</div>
-            <div class="main-continents__oceania">Oceania</div>
-            <div class="main-continents__antarctica">Antarctica</div>
-        </div>
-    </div> -->

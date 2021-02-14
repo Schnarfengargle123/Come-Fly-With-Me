@@ -25,15 +25,22 @@ a {
 .navigation-bar {
     width: 100vw;
     height: 8vh;
-    background-color: orange;
+    background-color: snow;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 1rem 0.5rem 2rem 0.5rem slategray;
 }
 
-.navigation-bar__brand {
+.navigation-bar__brand a {
     margin-left: 5rem;
+    color: cornflowerblue;
+}
+
+.navigation-bar__brand a:hover {
+    color: crimson;
+    transition: 300ms;
 }
 
 .navigation-bar__navigation {
@@ -41,72 +48,125 @@ a {
     flex-direction: row;
     justify-content: space-around;
     margin-right: 5rem;
-    background-color: #fff;
     width: 24rem;
 }
 
-.box {
-    width: 20rem;
-    height: 20rem;
-    background-color: lime;
+.navigation-bar__navigation__nav a {
+    font-weight: thin;
+    color: royalblue;
+}
+
+.navigation-bar__navigation__nav a:hover {
+    color: crimson;
+    transition: 300ms;
+}
+
+.main {
+    width: 100vw;
+    height: 92vh;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 5rem;
-    padding: 5rem;
-    border: solid 1rem black;
-    border-radius: 1rem;
+    justify-content: space-around;
+    margin-top: 3rem;
 }
 
-/* Global Styles */
-
-/* body, h1, h2, h3, h4, h5, h6 {
-    margin: 0;
-    overflow-x: hidden;
-}
-
-li {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-} */
-
-/* index.html */
-
-/* .navigation-bar {
+.main__card {
     display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main__card__brand {
+    padding-bottom: 1rem;
+}
+
+.main__card__brand a {
+    color: royalblue;
+}
+
+.main__card__brand a:hover {
+    color: crimson;
+    transition: 250ms;
+}
+
+.main__card__brand a:after {
+    display:block;
+    content: '';
+    padding-bottom: 1rem;
+    border-bottom: solid 0.3rem crimson;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+  }
+
+  .main__card__brand a:hover:after { 
+      transform: scaleX(1); 
+}
+
+.main__card__country a {
+    color: cornflowerblue;
+}
+
+.main__card__country a:hover {
+    color: crimson;
+    transition: 250ms;
+}
+
+.footer {
+    width: 100vw;
+    height: 35vh;
+    background-color: cornflowerblue;
+    box-shadow: 5rem 5em 5rem 5rem slategray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer__column {
+    text-align: center;
+}
+
+.footer__column a {
+    color: rgb(63, 79, 95);
+}
+
+.footer__column a:hover, .footer__column i:hover {
+    color: crimson;
+}
+
+.footer__column__navigation__brand a, .footer__column__info__title a, .footer__column__social__title a {
+    color: peachpuff;
+    font-weight: 400;
+}
+
+.footer__column__navigation__brand a {
+    font-weight: 300;
+    font-style: italic;
+    color: royalblue;
+}
+
+.footer__column__navigation, .footer__column__info, .footer__column__social {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footer__column__info p {
+    /* color: rgb(35, 37, 39); */
+    color: rgb(63, 79, 95);
+}
+
+.footer__column__social i {
+    font-size: x-large;
+    color: rgb(63, 79, 95);
+}
+
+/* .footer__column__navigation {
     flex-direction: row;
     justify-content: space-between;
-    width: 100vw;
-    height: 8vh;
-    background-color: orange;
-}
-
-.brand {
-    color: crimson;
-    margin-left: 2rem;
-}
-
-.navigation {
-    display: flex;
-    flex-direction: row;
-    margin-right: 2rem;
-}
-
-.nav-link {
-
+    align-items: center;
+    text-align: center;
+    width: 5vw;
+    height: 10vh;
 } */
-
-/* ____________ */
-
-
-/* countries.html */
-
-
-
-
-
-
